@@ -1,0 +1,246 @@
+<resources>
+    <!-- App -->
+
+    <string name="app_name">GeoInspect</string>
+
+
+    <!-- Destinations -->
+
+    <string name="destination_home">Geo Inspect</string>
+    <string name="destination_map">Map</string>
+    <string name="destination_detection">Detection</string>
+    <string name="destination_profile">Profile</string>
+    <string name="destination_settings">Settings</string>
+
+    <string name="destination_create_inspection_report">New inspection report</string>
+    <string name="destination_edit_inspection_report">Edit inspection report</string>
+    <string name="destination_view_inspection_report_fallback">Inspection report</string>
+
+    <string name="destination_auth_login">Sign in</string>
+    <string name="destination_auth_register">Create account</string>
+    <string name="destination_auth_password_reset">Reset password</string>
+
+
+    <!-- Home -->
+
+    <string name="home_inspection_reports_section_title">MY REPORTS</string>
+    <string name="home_digital_clock_title">Local time</string>
+    <string name="home_digital_clock_content_description">Current local time: %1$s</string>
+
+
+    <!-- Auth -->
+
+    <string name="auth_login_description">Sign in to use your profile across multiple devices and use protected infrastructure damage detection features.</string>
+    <string name="auth_register_description">Create an account to keep your inspection reports connected to your profile.</string>
+    <string name="auth_password_reset_description">Enter your email address and we will send you a password reset link.</string>
+
+
+    <!-- Create / Edit inspection report -->
+
+    <string name="create_inspection_report_title_label">Title</string>
+    <string name="create_inspection_report_title_placeholder">Enter inspection report title…</string>
+    <string name="create_inspection_report_title_required">Title is required</string>
+
+    <string name="create_inspection_report_description_label">Description</string>
+    <string name="create_inspection_report_description_placeholder">Describe detected road or street damage…</string>
+
+    <string name="create_inspection_report_location_label">Location</string>
+    <string name="create_inspection_report_location_hint">Tap the map to select a point</string>
+    <string name="create_inspection_report_getting_current_location">Getting current location…</string>
+    <string name="create_inspection_report_use_current_location">Use current location</string>
+
+    <string name="create_inspection_report_save_button">Save</string>
+
+    <string name="create_detection_section_title">Detection</string>
+    <string name="create_detection_add">Add detection</string>
+    <string name="create_detection_run_again">Run detection again</string>
+    <string name="create_detection_clear">Clear detection</string>
+
+
+    <!-- View inspection report -->
+
+    <string name="view_delete_report_dialog_title">Delete report?</string>
+    <string name="view_delete_report_dialog_message">"%1$s" will be permanently deleted. This action cannot be undone.</string>
+    <string name="view_delete_report_dialog_untitled">Untitled report</string>
+    <string name="view_delete_report_dialog_confirm">Delete</string>
+    <string name="view_delete_report_dialog_cancel">Cancel</string>
+    <string name="view_delete_report_dialog_confirmation_label">Confirmation</string>
+    <string name="view_delete_report_dialog_confirmation_prompt">Type %1$s to confirm deletion.</string>
+
+
+    <!-- Detection preview -->
+
+    <string name="inspection_report_detection_preview_title">Detection preview</string>
+    <string name="inspection_report_detection_preview_count">Detections: %1$d</string>
+    <string name="inspection_report_detection_preview_ready">Image and detection results are available.</string>
+    <string name="inspection_report_detection_preview_no_image">Image file was not found. Detection boxes are shown on a placeholder.</string>
+    <string name="inspection_report_detection_preview_no_detections">No detection results for this report yet.</string>
+    <string name="inspection_report_detection_preview_placeholder">Image not found</string>
+    <string name="inspection_report_detection_preview_image_content_description">Inspection report image</string>
+
+    <string name="detection_preview_details_title">Detection details</string>
+    <string name="detection_preview_details_title_with_count">Detections: %1$d</string>
+    <string name="detection_preview_details_close_content_description">Close detection preview</string>
+
+    <string name="detection_preview_details_image_title">Image</string>
+    <string name="detection_preview_details_image_size">Size: %1$d × %2$d px</string>
+    <string name="detection_preview_details_image_size_unknown">Size: unknown</string>
+    <string name="detection_preview_details_aspect_ratio">Aspect ratio: %1$s</string>
+    <string name="detection_preview_details_detections_count">Detections: %1$d</string>
+
+    <string name="detection_preview_details_boxes_title">Boxes</string>
+    <string name="detection_preview_details_no_boxes">No boxes</string>
+    <string name="detection_preview_details_box_title">%1$d. %2$s</string>
+    <string name="detection_preview_details_box_item">%1$d. %2$s • %3$s • x: %4$s–%5$s, y: %6$s–%7$s</string>
+    <string name="detection_preview_details_confidence">Confidence: %1$s</string>
+    <string name="detection_preview_details_box_coordinates">x: %1$s–%2$s, y: %3$s–%4$s</string>
+
+    <string name="detection_preview_details_box_compact_title">#%1$d %2$s · %3$s</string>
+    <string name="detection_preview_details_box_normalized_compact">norm: %1$s · area %2$s</string>
+    <string name="detection_preview_details_box_absolute_compact">px: %1$s · area %2$s</string>
+
+    <!-- Detection -->
+
+    <string name="detect_crop_title">Crop image</string>
+    <string name="detect_crop_description">Move and zoom the image with your fingers. The visible area will be used for detection.</string>
+    <string name="detect_crop_reset">Reset crop</string>
+    <string name="detect_crop_run_detection">Run detection</string>
+    <string name="detect_crop_clear_image">Clear image</string>
+    <string name="detect_cropper_image_load_error">Could not load image.</string>
+    <string name="detect_cropper_gesture_hint">Pinch to zoom and drag to move the image.</string>
+    <string name="detect_cropper_content_description">Image cropper</string>
+
+    <string name="detect_source_title">Infrastructure damage detection</string>
+    <string name="detect_source_description">Take a photo or choose an image from gallery. After that you can crop it and run inference.</string>
+    <string name="detect_source_take_photo">Take photo</string>
+    <string name="detect_source_choose_from_gallery">Choose from gallery</string>
+
+    <!-- Profile common -->
+
+    <string name="profile_field_empty_value">-</string>
+    <string name="profile_field_copied">%1$s copied</string>
+    <string name="profile_field_edit_content_description">Edit %1$s</string>
+
+    <string name="profile_field_email">Email</string>
+    <string name="profile_field_display_name">Display name</string>
+    <string name="profile_field_user_id">User ID</string>
+    <string name="profile_field_providers">Providers</string>
+    <string name="profile_providers_copied">Providers copied</string>
+
+    <string name="profile_photo_content_description">Profile photo</string>
+    <string name="profile_photo_placeholder_content_description">Default profile photo</string>
+
+
+    <!-- Profile identity -->
+
+    <string name="profile_identity_signed_in_user">Signed in user</string>
+    <string name="profile_identity_no_email">No email available</string>
+    <string name="profile_avatar_edit_content_description">Edit profile photo</string>
+
+    <string name="profile_email_verified">Email verified</string>
+    <string name="profile_email_not_verified">Email not verified</string>
+
+    <string name="profile_details_title">Account details</string>
+    <string name="profile_details_copy_hint">Tap any field to copy its value.</string>
+    <string name="profile_empty_message">No profile data.</string>
+
+
+    <!-- Profile security -->
+
+    <string name="profile_security_title">Security</string>
+    <string name="profile_security_description">Sensitive actions may require password confirmation.</string>
+    <string name="profile_security_change_password_title">Change password</string>
+    <string name="profile_security_change_password_description">Update password for this email account.</string>
+    <string name="profile_security_delete_account_title">Delete account</string>
+    <string name="profile_security_delete_account_description">Delete your account permanently.</string>
+
+
+    <!-- Profile dialogs -->
+
+    <string name="profile_dialog_save">Save</string>
+    <string name="profile_dialog_cancel">Cancel</string>
+    <string name="profile_dialog_confirm">Confirm</string>
+
+    <string name="profile_change_user_name_dialog_title">Change display name</string>
+
+    <string name="profile_change_password_dialog_title">Change password</string>
+    <string name="profile_change_password_dialog_new_password">New password</string>
+    <string name="profile_change_password_dialog_repeat_new_password">Repeat new password</string>
+
+    <string name="profile_delete_account_dialog_title">Delete account?</string>
+    <string name="profile_delete_account_dialog_message">This action is permanent. Your account will be deleted and you will be signed out. Type the confirmation word below to continue.</string>
+    <string name="profile_delete_account_dialog_confirm">Delete</string>
+    <string name="profile_delete_account_dialog_confirmation_prompt">Type %1$s to confirm account deletion.</string>
+
+    <string name="profile_reauthentication_dialog_title">Confirm password</string>
+    <string name="profile_reauthentication_dialog_current_password">Current password</string>
+
+
+    <!-- Profile avatar dialog -->
+
+    <string name="profile_avatar_dialog_title">Profile photo</string>
+    <string name="profile_avatar_dialog_update">Update</string>
+    <string name="profile_avatar_dialog_choose_image">Choose image</string>
+    <string name="profile_avatar_dialog_choose_another_image">Choose another</string>
+    <string name="profile_avatar_dialog_clear_selected_image">Clear selected</string>
+    <string name="profile_avatar_dialog_reset_avatar">Reset avatar</string>
+
+    <string name="profile_avatar_dialog_choose_hint">Choose an image from gallery to preview and crop it before upload.</string>
+    <string name="profile_avatar_dialog_crop_hint">Move and pinch the image to fit it inside the avatar circle.</string>
+    <string name="profile_avatar_cropper_gesture_hint">Drag to move, pinch to zoom.</string>
+    <string name="profile_avatar_dialog_image_load_error">Could not load selected image.</string>
+
+    <string name="profile_avatar_dialog_current_avatar">Current avatar</string>
+    <string name="profile_avatar_dialog_no_new_image">No new image selected.</string>
+    <string name="profile_avatar_preview_content_description">Profile photo preview</string>
+    <string name="profile_avatar_cropper_content_description">Avatar cropper</string>
+
+
+    <!-- Settings server API -->
+
+    <string name="settings_server_api_title">Server API</string>
+    <string name="settings_server_api_not_configured">Not configured</string>
+    <string name="settings_server_availability_check_content_description">Check server availability</string>
+    <string name="settings_server_availability_unknown">Tap the status marker to check whether the server is reachable.</string>
+    <string name="settings_server_availability_checking">Checking server availability…</string>
+    <string name="settings_server_availability_available">Server is reachable.</string>
+    <string name="settings_server_availability_unavailable">Server is unavailable. Check the URL and network connection.</string>
+
+    <string name="settings_server_api_dialog_description">Configure the backend server used for inspection, detection and profile API requests. You can enter an IP address, domain name or full URL.</string>
+    <string name="settings_server_api_dialog_save">Save</string>
+    <string name="settings_server_api_dialog_cancel">Cancel</string>
+
+
+    <!-- Settings data -->
+
+    <string name="settings_data_section_title">Data</string>
+    <string name="settings_data_import_reports">Import reports</string>
+    <string name="settings_data_import_reports_description">Load inspection reports from a JSON file</string>
+    <string name="settings_data_import_reports_success">Inspection reports imported.</string>
+
+    <string name="settings_data_export_reports">Export reports</string>
+    <string name="settings_data_export_reports_description">Save all inspection reports to a JSON file</string>
+    <string name="settings_data_export_reports_success">Inspection reports exported.</string>
+
+    <string name="settings_data_reset_reports">Reset data</string>
+    <string name="settings_data_reset_reports_description">Restore the default inspection reports</string>
+
+    <string name="settings_reset_data_dialog_title">Reset data?</string>
+    <string name="settings_reset_data_dialog_message">All current inspection reports will be deleted and the default inspection reports will be restored. This action cannot be undone.</string>
+    <string name="settings_reset_data_dialog_confirm">Reset</string>
+    <string name="settings_reset_data_dialog_cancel">Cancel</string>
+
+
+    <!-- Settings about -->
+
+    <string name="settings_about_app_title">GeoInspect v%1$s</string>
+    <string name="settings_about_app_description">An app for creating inspection reports linked to geographic points on the map, with support for images and detection results.</string>
+    <string name="settings_about_app_developer">Developed by Karandaev Ruslan.</string>
+
+
+    <!-- Confirmation fields -->
+
+    <string name="confirmation_word_field_label">Confirmation</string>
+    <string name="reset_confirmation_word_field_prompt">Type %1$s to confirm reset.</string>
+
+</resources>

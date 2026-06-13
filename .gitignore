@@ -127,3 +127,5 @@ source_dataset/
 test_samples/
 
 items_list.txt
+
+MobileApp/app/google-services.example.json
