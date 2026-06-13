@@ -487,10 +487,6 @@ The mobile app communicates with the backend through REST-style endpoints. The b
 
 ---
 
-## Suggested Screenshots Section
-
-Add screenshots later using this structure:
-
 ## Screenshots
 
 | Home                                                | Map                                                | Edit report                                         |
