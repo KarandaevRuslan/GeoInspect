@@ -501,9 +501,7 @@ Add screenshots later using this structure:
 
 ## License
 
-```markdown
 This project is licensed under the MIT License — see `LICENSE` for details.
-```
 
 ---
 
